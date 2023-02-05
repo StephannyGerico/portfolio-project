@@ -1,0 +1,233 @@
+:root {
+  --primary-color: #6c63ff;
+  --secondary-color: #f5f2fe;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  font-family: "Poppins", sans-serif !important;
+  color: #272142 !important;
+}
+
+h1,
+h2,
+h4 {
+  font-family: "Playfair Display", serif;
+  color: black;
+}
+
+h2 {
+  font-size: 48px !important;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.start-screen {
+  padding: 160px 0;
+  background-color: var(--secondary-color);
+  text-align: center;
+}
+
+.start-screen h1 {
+  font-size: 96px !important;
+  line-height: 128px !important;
+}
+
+.start-screen h3 {
+  font-size: 24px !important;
+  line-height: 36px !important;
+  margin-top: 30px !important;
+  margin-bottom: 49px !important;
+}
+
+.navbar {
+  width: 100%;
+  height: auto;
+  padding: 5px 100px !important;
+  background-color: #fff;
+}
+
+.logo-nav {
+  width: 150px;
+  height: auto;
+}
+
+.hi-i-am {
+  font-weight: bold;
+  font-size: 36px;
+}
+
+.contact-link {
+  display: block;
+  text-align: center;
+  width: 200px;
+  height: auto;
+  border-radius: 4px;
+  text-decoration: none;
+  background: var(--primary-color);
+  color: white;
+  font-size: 18px;
+  padding: 18px 0;
+}
+
+.homepage-link {
+  color: var(--primary-color);
+  text-align: center;
+  display: block;
+}
+
+.container h2 {
+  font-size: 64px !important;
+}
+
+.container p {
+  font-size: 16px !important;
+}
+
+.app-info {
+  padding: 100px 60px !important;
+}
+
+.btn-purple {
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  text-decoration: none;
+}
+.about-paragraphs {
+  display: flex;
+  margin: 30px 0;
+}
+
+.about-paragraphs p {
+  margin: 10px;
+}
+
+.email-link {
+  color: #272142;
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #272142;
+  text-decoration: underline;
+}
+
+@media (max-width: 1200px) {
+  .app-info {
+    padding: 50px 30px !important;
+    margin-top: 20px;
+  }
+  .container h2,
+  .work-container h1 {
+    font-size: 44px !important;
+  }
+  .container p {
+    font-size: 14px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  h2,
+  .work-container h1 {
+    text-align: center !important;
+  }
+  .start-screen h1 {
+    font-size: 54px !important;
+  }
+  .app-link {
+    display: block;
+    margin: 0 80px;
+    text-align: center;
+  }
+  .app-info {
+    text-align: center;
+    padding: 20px !important;
+  }
+  .aboutme-info {
+    text-align: center;
+  }
+
+  .aboutme-info h1 {
+    font-size: 44px !important;
+  }
+  .aboutme-box .contact-link {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+
+  .navbar,
+  .aboutme-box,
+  .work-container {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
+  .lets-talk h4 {
+    font-size: 36px !important;
+  }
+  .footer .email-link {
+    font-size: 16px !important;
+  }
+}
+
+.aboutme-box,
+.work-container {
+  padding: 150px 100px 0px 100px;
+}
+
+.aboutme-box h1,
+.work-container h1 {
+  font-size: 64px;
+}
+
+.aboutme-box h3 {
+  font-size: 18px;
+  line-height: 27px;
+  margin: 29px 0;
+  font-weight: bold;
+}
+
+.work-container h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: bold;
+}
+
+.text-about {
+  font-size: 16px;
+  padding-bottom: 30px;
+  line-height: 30px;
+}
+
+.lets-talk {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: var(--secondary-color);
+  margin: 90px 0px;
+  padding: 40px 0px;
+}
+
+.lets-talk h4 {
+  font-size: 48px;
+}
+
+.footer .email-link {
+  text-align: center;
+  font-size: 24px;
+  display: block;
+}
+
+.icons {
+  display: flex;
+  justify-content: space-evenly;
+  width: 186px;
+  height: auto;
+  margin: 41px auto;
+}
+
+.icons img {
+  width: 40px;
+  height: 40px;
+}
